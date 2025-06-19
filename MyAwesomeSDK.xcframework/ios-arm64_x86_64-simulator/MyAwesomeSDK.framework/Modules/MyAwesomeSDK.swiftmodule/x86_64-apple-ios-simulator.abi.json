@@ -1,0 +1,131 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MyAwesomeSDK",
+    "printedName": "MyAwesomeSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyAwesomeSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyAwesomeSDK",
+        "printedName": "MyAwesomeSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MyAwesomeSDKAAV7versionSSvpZ",
+            "mangledName": "$s12MyAwesomeSDKAAV7versionSSvpZ",
+            "moduleName": "MyAwesomeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MyAwesomeSDKAAV7versionSSvgZ",
+                "mangledName": "$s12MyAwesomeSDKAAV7versionSSvgZ",
+                "moduleName": "MyAwesomeSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "greet",
+            "printedName": "greet(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MyAwesomeSDKAAV5greet4nameS2S_tFZ",
+            "mangledName": "$s12MyAwesomeSDKAAV5greet4nameS2S_tFZ",
+            "moduleName": "MyAwesomeSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12MyAwesomeSDKAAV",
+        "mangledName": "$s12MyAwesomeSDKAAV",
+        "moduleName": "MyAwesomeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/suneesh\/Desktop\/Code\/Work\/sdk\/MyAwesomeSDK\/MyAwesomeSDK\/MyAwesomeSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 7,
+      "value": "\"1.0.0\""
+    }
+  ]
+}
